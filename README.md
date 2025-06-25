@@ -1,6 +1,6 @@
 # All-In-One Compiler For Windows!
 ### Setup
-Before running the program, make sure MinGW is installed. Download the official .exe [from here.](https://sourceforge.net/projects/mingw-w64/)  Proceed with the installation until you get an install screen similar to this: img/
+Before running the program, make sure MinGW is installed. Download the official .exe [from here.](https://sourceforge.net/projects/mingw-w64/)  Proceed with the installation until you get an install screen similar to this: ![Banner](img/screen1.jpg)
 ### Languages supported (from v1):
 C++ (.cpp)  
 C (.c)  
