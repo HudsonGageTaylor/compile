@@ -39,6 +39,10 @@ Download compile from the latest release. Once finished, place the executable in
 
 Hit "Apply" and your done with the setup!
 
+# Usage
+
+Syntax: compile \<filename\>
+
 ### Languages supported (from v1):
 C++ (.cpp)  
 C (.c)  
