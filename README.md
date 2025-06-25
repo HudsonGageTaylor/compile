@@ -43,7 +43,7 @@ Hit "Apply" and your done with the setup!
 
 Syntax: compile \<filename\>
 
-### Languages supported (from v1):
+### Languages supported (from v1.1):
 C++ (.cpp)  
 C (.c)  
 Rust (.rs)  
