@@ -1,4 +1,6 @@
 # All-In-One Compiler For Windows!
+  
+# Setup
 ### MinGW Setup
 Download the official minimalist .exe [from here.](https://sourceforge.net/projects/mingw/files/latest/download)  Proceed with the installation until you get an install screen similar to this:  
   
@@ -24,11 +26,14 @@ Click the button that says **"Environment Variables..."** and a new window shoul
 Press the **"New"** button and add this into the prompt: `C:\MinGW\bin`. It should look like this:  
     
 ![Banner](screen4.png)  
+  
+***Make sure to hit the "Apply" button in the "System Properties" window!***  
 
+### Rustc Setup
+Download the correct rustup .exe for your machine from the [official download page.](https://www.rust-lang.org/tools/install) Run the program and choose the standard installation.  
 
-
-
-
+### compile Setup
+Download compile from the latest release. Once finished, place the executable in a folder and add the folder to the PATH (same process as adding minGW to PATH). For example, if you place it in C:\bin:
 
 ### Languages supported (from v1):
 C++ (.cpp)  
