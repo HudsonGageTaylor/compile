@@ -12,7 +12,12 @@ Then select these tools for installation:
 
 Once done, hit install and wait!  
 
-Once the installation is finished, go to the Windows search bar and type "Environment Variables" and select **Edit the system environment variables.**
+Once the installation is finished, go to the Windows search bar and type "Environment Variables" and select **Edit the system environment variables.**  
+You should get a screen like this:  
+
+![Banner](screen2.png)  
+
+Click the button that says **"Environment Variables..."** and a new window should appear. In the lower box which says "System variables", select "Path"
 ### Languages supported (from v1):
 C++ (.cpp)  
 C (.c)  
