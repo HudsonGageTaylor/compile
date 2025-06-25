@@ -4,7 +4,7 @@ This program simplifies compiling files from the command line by automatically c
 ### MinGW Setup
 Download the official minimalist .exe [from here.](https://sourceforge.net/projects/mingw/files/latest/download)  Proceed with the installation until you get an install screen similar to this:  
   
-![Banner](screen1.jpg)  
+![Banner](img/screen1.jpg)  
 
 Then select these tools for installation:  
   
@@ -17,15 +17,15 @@ Once done, hit install and wait!
 Once the installation is finished, go to the Windows search bar and type "Environment Variables" and select **Edit the system environment variables.**  
 You should get a screen like this:  
 
-![Banner](screen2.png)  
+![Banner](img/screen2.png)  
 
 Click the button that says **"Environment Variables..."** and a new window should appear. In the lower box which says "System variables", double click "Path":   
   
-![Banner](screen3.png)  
+![Banner](img/screen3.png)  
   
 Press the **"New"** button and add this into the prompt: `C:\MinGW\bin`. It should look like this:  
     
-![Banner](screen4.png)  
+![Banner](img/screen4.png)  
   
 ***Make sure to hit the "Apply" button in the "System Properties" window!***  
 
@@ -35,7 +35,7 @@ Download the correct rustup .exe for your machine from the [official download pa
 ### compile Setup
 Download `compile.exe` from the [latest release.](https://github.com/HudsonGageTaylor/compile/releases/latest) Once finished, place the executable in a folder and add the folder to the PATH (same process as adding minGW to PATH). For example, if you place it in C:\bin:  
 
-![Banner](screen5.png)  
+![Banner](img/screen5.png)  
 
 Hit "Apply" and your done with the setup!
 
