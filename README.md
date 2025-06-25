@@ -17,7 +17,19 @@ You should get a screen like this:
 
 ![Banner](screen2.png)  
 
-Click the button that says **"Environment Variables..."** and a new window should appear. In the lower box which says "System variables", select "Path"
+Click the button that says **"Environment Variables..."** and a new window should appear. In the lower box which says "System variables", double click "Path":   
+  
+![Banner](screen3.png)  
+  
+Press the **"New"** button and add this into the prompt: `C:\MinGW\bin`. It should look like this:  
+    
+![Banner](screen4.png)  
+
+
+
+
+
+
 ### Languages supported (from v1):
 C++ (.cpp)  
 C (.c)  
