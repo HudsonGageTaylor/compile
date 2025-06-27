@@ -5,7 +5,7 @@ This program simplifies compiling files from the command line by automatically c
 Install the `compile-install.exe` file and run it. Confirm the installation and your good to go! The `compile.exe` file, `MinGW` folder, and the `.cargo` folder will be in `C:\compile\` and will automatically be added to PATH. If this doesn't work, try the [outdated method](#setup-outdated)  
 # Usage
 
-Syntax: compile \<filename\>
+Syntax: compile \<source_file\> as \<output_name\>
 
 ### Languages supported (from v1.1):
 C++ (.cpp)  
