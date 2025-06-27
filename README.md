@@ -2,7 +2,18 @@
 # All-In-One Compiler For Windows!
 This program simplifies compiling files from the command line by automatically choosing which compiler to use. Compiling from CMD has never been so easy! compile is written in C++ and can be tweaked if needed.
 # Setup (Recommended)
-Install the `compile-install.exe` file and run it. Confirm the installation and your good to go! The `compile.exe` file, `MinGW` folder, and the `.cargo` folder will be in `C:\compile\` and will automatically be added to PATH.
+Install the `compile-install.exe` file and run it. Confirm the installation and your good to go! The `compile.exe` file, `MinGW` folder, and the `.cargo` folder will be in `C:\compile\` and will automatically be added to PATH. If this doesn't work, try the [outdated method](#setup-outdated)  
+# Usage
+
+Syntax: compile \<filename\>
+
+### Languages supported (from v1.1):
+C++ (.cpp)  
+C (.c)  
+Rust (.rs)  
+Fortran (.f, .for, .ftn, .f77, .f90, .f95, .f03, .f08, .f18)  
+  
+**More coming soon!**
 # Setup (OUTDATED!)
 If you don't want to use the installer for some reason, this method is for you.
 ### MinGW Setup
@@ -43,15 +54,3 @@ Download `compile.exe` from the [latest single release.](https://github.com/Huds
 
 Hit "Apply" and your done with the setup!
 
-# Usage
-
-Syntax: compile \<filename\>
-
-### Languages supported (from v1.1):
-C++ (.cpp)  
-C (.c)  
-Rust (.rs)  
-Fortran (.f, .for, .ftn, .f77, .f90, .f95, .f03, .f08, .f18)  
-
-  
-**More coming soon!**
