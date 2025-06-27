@@ -1,5 +1,5 @@
-# All-In-One Compiler For Windows!
 ![Banner](img/logo1.png)  
+# All-In-One Compiler For Windows!
 This program simplifies compiling files from the command line by automatically choosing which compiler to use. Compiling from CMD has never been so easy! compile is written in C++ and can be tweaked if needed.
 # Setup (Recommended)
 Install the `compile-install.exe` file and run it. Confirm the installation and your good to go! The `compile.exe` file, `MinGW` folder, and the `.cargo` folder will be in `C:\compile\` and will automatically be added to PATH.
