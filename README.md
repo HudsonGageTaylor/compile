@@ -36,7 +36,7 @@ Press the **"New"** button and add this into the prompt: `C:\MinGW\bin`. It shou
 Download the correct rustup .exe for your machine from the [official download page.](https://www.rust-lang.org/tools/install) Run the program and choose the standard installation.  
 
 ### compile Setup
-Download `compile.exe` from the [latest release.](https://github.com/HudsonGageTaylor/compile/releases/latest) Once finished, place the executable in a folder and add the folder to the PATH (same process as adding minGW to PATH). For example, if you place it in C:\bin:  
+Download `compile.exe` from the [latest single release.](https://github.com/HudsonGageTaylor/compile/releases/v1.1) Once finished, place the executable in a folder and add the folder to the PATH (same process as adding minGW to PATH). For example, if you place it in C:\bin:  
 
 ![Banner](img/screen5.png)  
 
