@@ -9,23 +9,42 @@
 <body>
   <header>
     <img src="img/logo1.png" alt="Installer Logo" class="logo" />
-    <h1>compile: All-In-One Compiler For Windows!</h1>
-    <p class="tagline">Enter your short description here</p>
+    <h1>The All-In-One Compiler For Windows!</h1>
   </header>
 
   <main>
     <section class="description">
       <h2>About</h2>
-      <p>Enter here a description of what your installer does, what it's for, etc.</p>
+      <p>This program simplifies compiling files from the command line by automatically choosing which compiler to use. Compiling from CMD has never been so easy! <code>compile</code> is written in C++ and can be tweaked if needed.</p>
+
+      <h2>Setup</h2>
+      <p>
+        Install the <code>compile-install.exe</code> file from the download button and run it. Confirm the installation and you're good to go! The <code>compile.exe</code> file, MinGW folder, and the .cargo folder will be in <code>C:\compile\</code> and will automatically be added to PATH. 
+        If this doesn't work, try the outdated method from 
+        <a href="https://github.com/HudsonGageTaylor/compile?tab=readme-ov-file#setup-outdated" target="_blank">the official repo</a>.
+      </p>
+
+      <h2>Usage</h2>
+      <p>
+        Syntax: <code>compile &lt;source_file&gt; as &lt;output_name&gt;</code><br><br>
+
+        Languages supported (from v1.1):<br><br>
+        C++ (.cpp)<br>
+        C (.c)<br>
+        Rust (.rs)<br>
+        Fortran (.f, .for, .ftn, .f77, .f90, .f95, .f03, .f08, .f18)<br><br>
+
+        More coming soon!
+      </p>
     </section>
 
     <section class="download">
       <a href="https://github.com/your-username/your-repo/releases/latest" class="button">Download Installer</a>
     </section>
-
-    <footer>
-      <p>© 2025 Your Name. Hosted on GitHub Pages.</p>
-    </footer>
   </main>
+
+  <footer>
+    <p>© 2025 HudSoft.</p>
+  </footer>
 </body>
 </html>
