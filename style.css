@@ -1,4 +1,4 @@
-/* Basic reset and typography */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +7,8 @@
 
 body {
   font-family: system-ui, sans-serif;
-  background: #f9f9f9;
-  color: #333;
+  background: #0d1117;
+  color: #c9d1d9;
   line-height: 1.6;
   padding: 20px;
 }
@@ -20,12 +20,19 @@ header {
 
 h1 {
   font-size: 2.5rem;
-  color: #2c3e50;
+  color: #ffffff;
+}
+
+.logo {
+  max-width: 200px;
+  margin-top: 20px;
+  border-radius: 8px;
 }
 
 .tagline {
   font-size: 1.2rem;
-  color: #7f8c8d;
+  color: #8b949e;
+  margin-top: 10px;
 }
 
 main {
@@ -39,7 +46,7 @@ section {
 
 .download .button {
   display: inline-block;
-  background: #3498db;
+  background: #238636;
   color: white;
   padding: 12px 24px;
   border-radius: 4px;
@@ -48,12 +55,12 @@ section {
 }
 
 .download .button:hover {
-  background: #2980b9;
+  background: #2ea043;
 }
 
 footer {
   text-align: center;
   margin-top: 60px;
   font-size: 0.9rem;
-  color: #aaa;
+  color: #586069;
 }
